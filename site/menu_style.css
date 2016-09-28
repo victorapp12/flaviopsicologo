@@ -1,0 +1,191 @@
+	.menu{
+
+		float:right;
+
+		border:none;
+
+		font-family:Arial, Helvetica, sans-serif;				   
+
+		width:814px;
+
+		font-weight:bold;
+
+		height:65px;
+
+		/*border:solid 1px red;*/
+
+		background:url('imgs/bg_menu.png') top center no-repeat;
+
+		margin-top:0px;
+		
+		z-index:999;
+
+
+
+	}
+
+	.menu ul{
+
+		list-style:none;
+
+		margin:0;
+
+		padding:0;
+		
+		z-index:999;
+
+	}
+
+	.menu li{
+
+		float:left;
+
+		padding:0px;
+
+		height:65px;
+
+	}
+
+	.menu li a{
+
+		font-family:"Arial", Helvetica, sans-serif;
+
+		color:#FFFFFF ;
+
+		display:block;
+
+		height:65px;
+
+		line-height:64px;
+
+		margin:0px;
+
+		font-size:12px;
+
+		padding:0px 18px;
+
+		text-align:center;
+
+		text-decoration:none;
+
+		text-transform:uppercase;
+		
+		z-index:999;
+
+	}
+
+
+
+	.menu li a:hover, .menu ul li:hover a{
+
+		background:url("imgs/bg_menuh.png") top center repeat-x;
+
+		color:#FFFFFF;
+
+		height:64px;
+
+		text-decoration:none;
+
+	}
+
+	
+
+	.menu li ul{
+
+		display:none;
+
+		height:auto;
+
+		padding:0px;
+
+		margin:0px;
+
+		border:0px;
+
+		position:absolute;
+
+		width:180px;
+
+		z-index:200;
+
+		border:solid 2px #becd5c;
+
+		background-color:#c6d660;
+
+		}
+
+	.menu li:hover ul{
+
+		display:block;
+
+		
+
+		}
+
+	.menu li li {
+
+		background:url('imgs/sub_sep.gif') bottom left no-repeat;
+
+		display:block;
+
+		float:none;
+
+		margin:0px;
+
+		padding:0px;
+
+		height:45px;
+
+		
+
+		}
+
+	.menu li:hover li a{
+
+		background:none;height:45px;
+
+		margin:0;
+
+		
+
+		}
+
+	.menu li ul a{
+
+		display:block;
+
+		font-style:normal;
+
+		margin:0px;
+
+		text-align:left;
+
+		line-height:45px;
+
+		margin:0px;
+
+		font-size:12px;
+
+		}
+
+		.menu li ul a:hover, .menu li ul li:hover a{
+
+			background-color:#5e7997;
+
+			border:0px;
+
+			color:#ffffff;
+
+			text-decoration:none;
+
+			}
+
+	.menu p{
+
+		clear:left;
+
+		}	
+
+
+
+		

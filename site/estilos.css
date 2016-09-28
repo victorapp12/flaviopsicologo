@@ -1,0 +1,872 @@
+/* Clearfix */
+
+/* Lennon - Designer e Publicitário - Layouts diferenciados em HTML + CSS */
+
+/* lennon_pp@yahoo.com.br */
+
+
+
+
+
+/*TRATAMENTO CSS*/
+
+.clearfix:after{
+
+content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}.clearfix{display:inline-block;}html[xmlns] .clearfix{display:block;}* html .clearfix{height:1%;}
+
+
+
+html {
+
+	overflow:scroll;
+
+}
+
+a{text-decoration:none;} a:link{text-decoration:none;} a:visited{text-decoration:none;} a:active{text-decoration:none;}
+
+* {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+	font-size: 12px;
+
+	font-family:arial;
+
+	color:#333333;
+
+	border:0px;
+
+}
+
+
+
+table {
+
+	border-collapse:separate;
+
+	border-spacing:0;
+
+}
+
+caption, th, td {
+
+	text-align:left;
+
+	font-weight:normal;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+	content:"";
+
+}
+
+blockquote, q {
+
+	quotes:"" "";
+
+}
+
+/* HTML5 tags */
+
+header, section, footer,
+
+aside, nav, article, figure {
+
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+p{
+
+	text-align:left;
+
+}
+
+
+
+
+
+/*-----------------------ESTILOS DE BODY E BACKGROUND--------------------------------------*/
+
+body {
+
+	background:url('imgs/bg_body.jpg') top center no-repeat #f6f6f6;
+
+	margin:0px 0px;
+
+}
+
+
+
+#container {
+
+	width: 900px;
+
+	/*border:solid 1px red;*/
+
+}
+
+
+
+.conteudo{
+
+	width:824px;
+
+	padding:5px 38px;
+
+	text-align:center;
+
+	/*background-color:#CCCCCC;*/
+
+}
+
+
+
+
+
+
+
+/*-----------------------TOPO--------------------------------------*/
+
+
+
+.social_topo{
+	float:right;
+	/*border:solid 1px red;*/
+	height:30px;
+	margin-top:-6px;
+	margin-bottom:4px;
+	margin-right:8px;
+}
+
+.topo{
+
+	/*height:250px;*/
+
+	width: 1100px;
+
+	margin-bottom:0px;
+
+	/*border:solid 1px #333366;*/
+
+	padding-top:20px;
+
+	
+
+}
+
+
+
+.logo{
+
+	float:left;
+
+	/*border:solid 1px #333366;*/
+
+}
+
+
+
+
+
+.destaque{
+
+	z-index:0;
+
+	height:297px;
+
+	margin-top:34px;
+
+	padding-bottom:-20px;
+
+	background:url('imgs/bg_dest.jpg') top center repeat-x;
+
+	/*border:solid 1px red;*/
+
+}
+
+.destaque2{
+
+	width:1054px;
+
+	/*border:solid 1px red;*/
+
+	height:332px;
+
+	position:relative;
+
+	top:-35px;
+
+	/*background:url('imgs/bg_dest2.png') top center no-repeat ;*/
+
+}
+
+.destaque_interno{
+
+	z-index:0;
+	height:80px;
+	margin-top:34px;
+	padding-bottom:-20px;
+	background:url('imgs/bg_dest.jpg') bottom center repeat-x;
+	margin-bottom:20px;
+
+}
+
+.destaque_interno2{
+
+	width:900px;
+
+	height:80px;
+
+	position:relative;
+
+	line-height:80px;
+
+	text-transform:uppercase;
+
+	font-size:28px;
+
+	text-align:left;
+
+	color:#FFFFFF;
+
+}
+.destaque_interno_blog{
+
+	z-index:0;
+
+	height:80px;
+
+	margin-top:23px;
+
+	padding-bottom:-20px;
+
+	background:url('imgs/bg_dest.jpg') bottom center repeat-x;
+
+
+}
+
+.destaque_interno_blog2{
+
+	width:900px;
+
+	height:80px;
+
+	position:relative;
+
+	line-height:80px;
+
+	text-transform:uppercase;
+
+	font-size:28px;
+
+	text-align:left;
+
+	color:#FFFFFF;
+
+}
+
+.col_cont{
+
+	float:left;
+
+	width:390px;
+
+	/*border:solid 1px #3C3;*/
+
+	float:left;
+
+	height:250px;
+
+	margin-right:40px;
+
+	padding-top:20px;
+
+}
+
+.foto_col{
+
+	width:388px;
+
+	height:138px;
+
+	/*border:solid 1px #CCCCCC;*/
+	
+	/*border:dotted 1px #999999;*/
+
+	/*background-color:#f0f0f0;*/
+
+	margin-bottom:12px;
+
+}
+
+.foto_col img{
+
+	width:380px;
+
+	height:124px;
+
+	margin-top:9px;
+	
+	border:solid 1px #CCCCCC;
+	
+	padding:4px;
+
+}
+
+h2{
+
+	font-weight:normal;
+	font-size:20px;
+
+	color:#4a5964;
+
+	text-align:left;
+
+}
+
+h2 a{
+
+	display:block;
+
+	text-align:left;
+
+	font-weight:normal;
+	font-size:20px;
+
+	color:#4a5964;
+
+
+
+}
+
+.col_cont p{
+
+	font-size:15px;
+
+	color:#999;
+
+	margin-top:5px;
+	
+	font-weight:normal;
+
+}
+
+.premio{
+	float:left;
+	margin-top:30px;
+	margin-bottom:28px;
+	border-top:dashed 1px #999999;
+	border-bottom:dashed 1px #999999;
+	height:94px;
+	width:100%;
+}
+.premio img{
+	float:left;
+	margin-left:30px;
+	margin-top:-10px;
+	margin-right:25px;
+	width:120px;
+}
+.premio h2{
+	font-weight:normal;
+	font-size:20px;
+	margin-top:15px;
+}
+.premio p{
+	font-size:15px;
+	font-weight:normal;
+	color:#999;
+	margin-top:5px;
+}
+.premio p b{
+	font-size:15px;
+	font-weight:bold;
+	color:#999;
+}
+/*PREMIO DUAS COLUNAS*/
+.premio_50{
+	float:left;
+	margin-top:30px;
+	margin-bottom:28px;
+	border-top:dashed 1px #999999;
+	border-bottom:dashed 1px #999999;
+	height:94px;
+	width:47%;
+}
+.sem_margem{
+}
+.premio_50 img{
+	float:left;
+	margin-left:0px;
+	margin-top:-10px;
+	margin-right:16px;
+	width:120px;
+}
+.premio_50 h2{
+	font-weight:bold;
+	font-size:14px;
+	margin-top:8px;
+}
+.premio_50 p{
+	font-size:11px;
+	font-weight:normal;
+	color:#999;
+	margin-top:5px;
+}
+.premio_50 p b{
+	font-size:11px;
+	font-weight:bold;
+	color:#999;
+}
+
+
+.convenios{
+
+	float:left;
+
+	margin-top:14px;
+
+	/*border:solid 1px #339966;*/
+
+}
+
+.convenios p{
+
+	width:100%;
+
+	/*border:solid 1px red;*/
+
+	color:#818181;
+
+	/*font-weight:bold;*/
+
+}
+
+.convenios .conv{
+
+	float:left;
+
+	width:160px;
+
+	height:49px;
+
+	background-color:#309;
+
+	margin-right:0px;
+
+	/*border:solid 1px #339966;*/
+
+}
+
+
+
+
+
+
+
+/*------------RODPÉ---------------*/
+
+
+
+#rodape{
+
+	padding-top:18px;
+
+	border-top:solid 2px #CCCCCC;
+
+	margin-top:15px;
+
+	background-color:#596c79;
+
+	padding-bottom:18px;
+
+}
+
+
+
+
+
+.sub_rodape{
+
+	background-color:#8b788b;
+
+	color:#FFFFFF;
+
+	font-size:10px;
+
+	padding:4px;
+
+
+
+}
+
+
+
+.rodape_2{
+
+	width:900px;
+
+	
+
+}
+
+
+
+.sem_margem{
+
+	margin:0px;
+
+}
+
+.cont_rod{
+
+	float:left;
+
+	width:auto;
+	
+	/*border:solid 1px red;*/
+}
+
+
+.cont_rod img{
+	margin-right:35px;
+}
+.cont_rod p{
+
+	text-align:left;
+
+	font-size:14px;
+
+	color:#FFFFFF;
+
+	
+	/*border:solid 1px red;*/
+}
+.cont_rod_crp p{
+	line-height: 34px;
+	color:#FFFFFF;
+	font-size:14px;
+}
+.col_xx{
+
+	width:500px;
+
+	float:left;
+
+	/*background-color:#0F3;*/
+
+}
+
+.col_x{
+
+	float:right;
+
+	width:290px;
+
+	/*background-color:#099;*/
+
+}
+
+.col_xxx{
+
+	width:100%;
+
+	float:left;
+
+	/*background-color:#0F3;*/
+
+}
+
+.col_xxx p{
+
+	font-size:16px;
+
+	margin-bottom:15px;
+
+	text-align:justify;
+
+	color:#333333;
+
+	line-height:24px;
+
+}
+
+.col_xxx p b{
+
+	font-size:16px;
+
+	color:#333333;
+
+}
+
+.col_xxx h4{
+
+	font-size:17px;
+
+	text-transform:uppercase;
+
+	text-align:justify;
+
+	margin-bottom:10px;
+
+	margin-top:30px;
+
+	color:#b8c861;
+
+}
+.col_xx h4{
+
+	font-size:17px;
+
+	text-transform:uppercase;
+
+	text-align:justify;
+
+	margin-bottom:10px;
+
+	margin-top:30px;
+
+	color:#b8c861;
+
+}
+
+.col_xx p{
+
+	font-size:16px;
+
+	margin-bottom:15px;
+
+	text-align:justify;
+
+	color:#333333;
+
+	line-height:24px;
+
+}
+
+.linha_pontilhada{
+
+	border-bottom:dashed 1px #CCCCCC;
+
+}
+
+.foto_conteudo{
+
+	width:250px;
+
+	height:200px;
+
+	border:solid 1px #CCC;
+
+	padding:20px;
+
+	overflow:hidden;
+
+	background-color:#FFF;
+
+	margin-bottom:20px;
+
+}
+
+.foto_conteudo img {
+
+	
+
+	width:100%;
+
+}
+
+/*--------------- FORMULÁRIOS-------------------------------*/
+
+
+
+.form_contato{
+
+	float:left;
+
+	/*border:solid 1px red;*/
+
+	width:100%;
+
+	margin-top:0px;
+
+}
+
+.form_contato fieldset{
+
+	/*border:solid 1px red;*/
+
+	float:left;
+
+	margin:0px;
+
+	width:100%;
+
+}
+
+.form_contato input{
+
+	border:solid 1px #CCC;
+
+	width:100%;
+
+	margin-top:4px;
+
+	float:left;
+
+	font-size:15px;
+
+	line-height:30px;
+
+	float:left;
+
+	height:30px;
+
+	background-color:#FFFFFF;
+
+}
+
+.form_contato .btn_form{
+
+	width:50%;
+
+	height:40px;
+
+	cursor:pointer;
+
+	margin-top:20px;
+
+	float:right;
+
+	background-color:#b8c861;
+
+	color:#FFF;
+
+}
+
+.form_contato .btn_form:hover{
+
+	background-color:#cbdc6b;
+
+}
+
+ label
+
+{
+
+	text-align:left;
+
+	color:#333333;
+
+	display: block;
+
+	margin-bottom:30px;
+
+	font-size:15px;
+
+	height:38px;
+
+	text-transform:uppercase;
+
+}
+
+
+
+
+
+#CADASTROCLIENTE .select_contato{
+
+	float:left;
+
+	width:100%;
+
+	border:solid 1px #CCC;
+
+	height:30px;
+
+	font-size:14px;
+
+	line-height:38px;
+
+	padding-top:6px;
+
+	padding-bottom:0px;
+
+	margin-bottom:10px;
+
+	margin-top:4px;
+
+}
+
+#CADASTROCLIENTE fieldset .text_area_label{
+
+	height:160px;
+
+}
+
+#CADASTROCLIENTE fieldset label .text_area_ca{
+
+	border:solid 1px #CCC;
+
+	width:100%;
+
+	text-align:justify;
+
+	float:left;
+
+	font-size:15px;
+
+	text-indent:inherit;
+
+	
+
+	/*height:250px;*/
+
+}
+
+
+
+.alerta_div b, .alerta_div p{
+
+	font-size:16px;
+
+	color:#FFFFFF;
+
+}
+
+.alerta_div{
+
+	float:left;
+
+	text-align:left;
+
+	border:solid 1px #E8E8E8;
+
+	width:270px;
+
+	margin-bottom:30px;
+
+	padding:10px;
+
+	background-color:#4a5964 ;
+
+    color:#FFFFFF;
+
+}
