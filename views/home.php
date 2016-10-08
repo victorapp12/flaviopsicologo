@@ -1,5 +1,5 @@
-<?php include 'shared/header.php'; ?>
+<?php include 'header.php'; ?>
 
-HOME
 
-<?php include 'shared/footer.php'; ?>
+
+<?php include 'footer.php'; ?>

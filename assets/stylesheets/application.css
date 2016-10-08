@@ -1,0 +1,114 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: inherit;
+  outline: 0 none; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: #f6f6f6;
+  font-family: "josefin_sansregular"; }
+
+.general {
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
+
+.section-content {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative; }
+
+.header {
+  padding-bottom: 30px; }
+  .header .header-links {
+    overflow: auto; }
+    .header .header-links ul {
+      float: right; }
+      .header .header-links ul li {
+        display: inline-block;
+        padding: 5px 0 0 0; }
+
+.nav-menu {
+  float: right;
+  margin-top: 50px; }
+  .nav-menu ul {
+    background: #B2CA4C;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #bdbdbd;
+    font-family: "josefin_sansbold"; }
+    .nav-menu ul li {
+      display: inline-block;
+      padding: 15px 10px;
+      position: relative; }
+      .nav-menu ul li:hover {
+        background: #6A84A1; }
+        .nav-menu ul li:hover ul {
+          display: block; }
+      .nav-menu ul li:first-child {
+        border-radius: 10px 0 0px 10px; }
+      .nav-menu ul li:last-child {
+        border-radius: 0 10px 10px 0; }
+      .nav-menu ul li a {
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 13px; }
+      .nav-menu ul li ul {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #B2CA4C;
+        margin-top: 15px;
+        border-radius: 0;
+        display: none;
+        text-align: center; }
+        .nav-menu ul li ul li {
+          border-radius: 0 !important;
+          display: block; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #596c79;
+  padding: 30px 0;
+  border-top: solid 2px #CCCCCC; }
+  .footer .footer-contact, .footer .footer-about {
+    float: left; }
+    .footer .footer-contact p, .footer .footer-about p {
+      color: #FFF; }
+      .footer .footer-contact p span, .footer .footer-about p span {
+        font-weight: bold; }
+  .footer .footer-contact {
+    width: 70%; }
+  .footer .footer-about {
+    width: 30%; }
+  .footer .footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px; }
