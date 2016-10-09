@@ -1,0 +1,247 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: inherit;
+  outline: 0 none; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: #f6f6f6;
+  font-family: "josefin_sansregular"; }
+
+* html .general {
+  height: 100%; }
+
+.general {
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
+
+.section-pages {
+  padding-bottom: 30px; }
+
+.section-content {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  height: auto; }
+
+.header {
+  padding-bottom: 30px; }
+  .header .header-links {
+    overflow: auto; }
+    .header .header-links ul {
+      float: right; }
+      .header .header-links ul li {
+        display: inline-block;
+        padding: 5px 0 0 0; }
+  .header .header-menu {
+    position: relative; }
+
+.nav-menu {
+  float: right;
+  margin-top: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9; }
+  .nav-menu ul {
+    background: #B2CA4C;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #bdbdbd;
+    font-family: "josefin_sansbold"; }
+    .nav-menu ul li {
+      display: inline-block;
+      padding: 15px 10px;
+      position: relative; }
+      .nav-menu ul li:hover {
+        background: #6A84A1; }
+        .nav-menu ul li:hover ul {
+          display: block; }
+      .nav-menu ul li:first-child {
+        border-radius: 10px 0 0px 10px; }
+      .nav-menu ul li:last-child {
+        border-radius: 0 10px 10px 0; }
+      .nav-menu ul li a {
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 13px; }
+      .nav-menu ul li ul {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #6A84A1;
+        margin-top: 15px;
+        border-radius: 0;
+        display: none;
+        text-align: center; }
+        .nav-menu ul li ul li {
+          border-radius: 0 !important;
+          display: block; }
+          .nav-menu ul li ul li:hover {
+            background: #64788F; }
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #596c79;
+  padding: 30px 0;
+  border-top: solid 2px #CCCCCC; }
+  .footer .section-content {
+    overflow: auto; }
+  .footer .footer-contact, .footer .footer-about {
+    float: left; }
+    .footer .footer-contact p, .footer .footer-about p {
+      color: #FFF; }
+      .footer .footer-contact p span, .footer .footer-about p span {
+        font-weight: bold; }
+  .footer .footer-contact {
+    width: 70%; }
+  .footer .footer-about {
+    width: 30%; }
+  .footer .footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px; }
+
+.home .section-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px; }
+
+.home .home-banner {
+  background-image: url("../img/bg_dest.jpg");
+  background-repeat: repeat-x;
+  height: 297px; }
+  .home .home-banner .section-content {
+    padding: 0;
+    height: 100%;
+    background-image: url("../img/home-treinamento-fundo.jpg");
+    background-size: cover; }
+
+.home .home-seals {
+  padding: 30px 0; }
+  .home .home-seals ul li {
+    padding: 0 20px;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box; }
+    .home .home-seals ul li img {
+      margin-bottom: 10px; }
+    .home .home-seals ul li h2 {
+      color: #4a5964;
+      font-size: 17px;
+      line-height: 22px;
+      margin-bottom: 5px; }
+    .home .home-seals ul li p {
+      color: #6a6a6a;
+      font-size: 15px; }
+
+.home .home-news {
+  padding: 30px 0;
+  overflow: auto; }
+  .home .home-news ul li {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    margin: 2.5%; }
+    .home .home-news ul li .img img {
+      width: 100%; }
+    .home .home-news ul li .content {
+      padding: 20px 0; }
+      .home .home-news ul li .content h2 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px; }
+        .home .home-news ul li .content h2 a {
+          color: #4a5964; }
+      .home .home-news ul li .content p {
+        color: #6a6a6a;
+        font-size: 16px; }
+
+.home .home-partners {
+  padding: 30px 0;
+  overflow: auto; }
+  .home .home-partners ul li {
+    display: inline-block; }
+
+.institutional .institutional-title {
+  width: 100%;
+  background: #596c79;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 3px #bdbdbd; }
+  .institutional .institutional-title h1 {
+    color: #FFF; }
+
+.institutional .institutional-content {
+  margin-bottom: 40px; }
+  .institutional .institutional-content ul li {
+    border-bottom: dashed 1px #CCCCCC;
+    padding: 30px 0; }
+    .institutional .institutional-content ul li p {
+      font-size: 17px;
+      color: #333333;
+      line-height: 1.5em; }
+    .institutional .institutional-content ul li h2 {
+      font-size: 25px;
+      text-align: justify;
+      margin-bottom: 10px;
+      color: #B2CA4C; }
+    .institutional .institutional-content ul li:last-child {
+      border: none; }
+  .institutional .institutional-content.sidebar-content {
+    overflow: auto; }
+    .institutional .institutional-content.sidebar-content .section-content {
+      overflow: auto; }
+    .institutional .institutional-content.sidebar-content .ul-content {
+      float: left; }
+    .institutional .institutional-content.sidebar-content .ul-content {
+      width: 65%; }
+    .institutional .institutional-content.sidebar-content .ul-sidebar {
+      float: right;
+      width: 30%; }
+      .institutional .institutional-content.sidebar-content .ul-sidebar li {
+        border: 0;
+        padding: 10px 0; }
+        .institutional .institutional-content.sidebar-content .ul-sidebar li p {
+          margin-bottom: 10px; }
+          .institutional .institutional-content.sidebar-content .ul-sidebar li p span {
+            font-weight: bold; }
+        .institutional .institutional-content.sidebar-content .ul-sidebar li img {
+          width: 100%;
+          border: 1px solid #CCCCCC;
+          padding: 10px;
+          box-sizing: border-box;
+          background: #FFF; }
+      .institutional .institutional-content.sidebar-content .ul-sidebar.contact {
+        background: #EEEEEE;
+        padding: 10px;
+        box-sizing: border-box; }

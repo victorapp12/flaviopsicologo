@@ -1,0 +1,71 @@
+.header
+  padding-bottom: 30px
+  
+  .header-links
+    overflow: auto;
+    ul
+      float: right  
+      
+      li
+        display: inline-block
+        padding: 5px 0 0 0  
+  
+  .header-menu
+    position: relative
+
+  
+    
+.nav-menu
+  float: right
+  margin-top: 50px
+  position: absolute
+  right: 0
+  top: 0
+  z-index: 9
+
+  //Menu
+  ul
+    background: $green-400
+    border-radius: 10px
+    box-shadow: 0 2px 3px $grey-400;
+    font-family: $font-bold
+    
+    li
+      display: inline-block
+      padding: 15px 10px
+      position: relative
+
+      &:hover
+        background: $blue-grey-500
+
+        ul
+          display: block
+
+      &:first-child
+        border-radius: 10px 0 0px 10px
+      
+      &:last-child
+        border-radius: 0 10px 10px 0
+
+      a
+        text-transform: uppercase
+        color: $white
+        font-size: 13px 
+
+      //Submenu
+      ul      
+        position: absolute
+        left: 0
+        width: 100%
+        background: $blue-grey-500
+        margin-top: 15px
+        border-radius: 0
+        display: none
+        text-align: center
+
+        li
+          border-radius: 0 !important
+          display: block
+
+          &:hover
+            background: #64788F
