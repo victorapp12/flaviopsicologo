@@ -165,7 +165,8 @@ body {
       font-size: 15px; }
 
 .home .home-news {
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow: auto; }
   .home .home-news ul li {
     width: 45%;
     float: left;
@@ -186,6 +187,61 @@ body {
         font-size: 16px; }
 
 .home .home-partners {
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow: auto; }
   .home .home-partners ul li {
     display: inline-block; }
+
+.institutional .institutional-title {
+  width: 100%;
+  background: #596c79;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 3px #bdbdbd; }
+  .institutional .institutional-title h1 {
+    color: #FFF; }
+
+.institutional .institutional-content {
+  margin-bottom: 40px; }
+  .institutional .institutional-content ul li {
+    border-bottom: dashed 1px #CCCCCC;
+    padding: 30px 0; }
+    .institutional .institutional-content ul li p {
+      font-size: 17px;
+      color: #333333;
+      line-height: 1.5em; }
+    .institutional .institutional-content ul li h2 {
+      font-size: 25px;
+      text-align: justify;
+      margin-bottom: 10px;
+      color: #B2CA4C; }
+    .institutional .institutional-content ul li:last-child {
+      border: none; }
+  .institutional .institutional-content.sidebar-content {
+    overflow: auto; }
+    .institutional .institutional-content.sidebar-content .section-content {
+      overflow: auto; }
+    .institutional .institutional-content.sidebar-content .ul-content {
+      float: left; }
+    .institutional .institutional-content.sidebar-content .ul-content {
+      width: 65%; }
+    .institutional .institutional-content.sidebar-content .ul-sidebar {
+      float: right;
+      width: 30%; }
+      .institutional .institutional-content.sidebar-content .ul-sidebar li {
+        border: 0;
+        padding: 10px 0; }
+        .institutional .institutional-content.sidebar-content .ul-sidebar li p {
+          margin-bottom: 10px; }
+          .institutional .institutional-content.sidebar-content .ul-sidebar li p span {
+            font-weight: bold; }
+        .institutional .institutional-content.sidebar-content .ul-sidebar li img {
+          width: 100%;
+          border: 1px solid #CCCCCC;
+          padding: 10px;
+          box-sizing: border-box;
+          background: #FFF; }
+      .institutional .institutional-content.sidebar-content .ul-sidebar.contact {
+        background: #EEEEEE;
+        padding: 10px;
+        box-sizing: border-box; }

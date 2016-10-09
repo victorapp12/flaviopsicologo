@@ -40,7 +40,7 @@
             <ul>
               <li><a href="">Quem sou</a></li>
               <li>
-                <a href="">O profissional</a>
+                <a href="page.php">O profissional</a>
                 <ul clas="sub-menu">
                   <li><a href="">Atendimento</a></li>
                   <li><a href="">Curriculo</a></li>    
