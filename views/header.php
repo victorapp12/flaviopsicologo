@@ -17,7 +17,7 @@
   <div class="general">
     <!-- General start -->
 
-    <div class="section header">
+    <div class="header">
       <!-- Header start -->
       
       <div class="section-content">

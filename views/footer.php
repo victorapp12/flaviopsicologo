@@ -1,4 +1,4 @@
-<div class="section footer">
+<div class="footer">
   <!-- Footer start -->
   <div class="section-content">
 
