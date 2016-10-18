@@ -14,17 +14,17 @@
       <ul>
         <li>
           <img src="../assets/img/seal_2013.png" alt="seal">
-          <h2>Psicólogo destaque de Minas Gerais 2013</h2>
+          <h2>Gente de Expressão 2013</h2>
           <p>Premiado e homonageado com o honroso título: "Gente de expressão de Minas Gerais 2013" pela excelência dos trabalhos prestados</p>
         </li>
         <li>
           <img src="../assets/img/seal_2014.png" alt="seal">
-          <h2>Psicólogo destaque especial por excelência clínica em 2014</h2>
+          <h2>Gente de Expressão 2014</h2>
           <p>Premiado e homonageado com o honroso título: "Gente de expressão de Minas Gerais 2013" pela excelência dos trabalhos prestados</p>
         </li>
         <li>
           <img src="../assets/img/seal_2015.png" alt="seal">
-          <h2>Psicólogo destaque de Minas Gerais 2013</h2>
+          <h2>Gente de Expressão 2015</h2>
           <p>Premiado e homonageado com o honroso título: "Gente de expressão de Minas Gerais 2013" pela excelência dos trabalhos prestados</p>
         </li>
       </ul>

@@ -10,6 +10,16 @@
     h1
       color: $white
 
+    ul
+      li
+        display: inline-block
+        padding: 12px 20px
+        &:hover, &.active
+          background: $green-400
+        a
+          font-size: 20px
+          color: $white
+
   .institutional-content
     margin-bottom: 40px
 
@@ -31,6 +41,11 @@
       
         &:last-child
           border: none
+
+        .iframe-content
+          width: 100%
+          margin: 50px 0
+          text-align: center
 
 
 
