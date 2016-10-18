@@ -38,18 +38,18 @@
           </a>
           <div class="nav-menu">
             <ul>
-              <li><a href="">Quem sou</a></li>
+              <li><a href="/views/page.php">Quem sou</a></li>
               <li>
-                <a href="page.php">O profissional</a>
+                <a href="#">O profissional</a>
                 <ul clas="sub-menu">
-                  <li><a href="">Atendimento</a></li>
-                  <li><a href="">Curriculo</a></li>    
+                  <li><a href="/views/page.php">Atendimento</a></li>
+                  <li><a href="/views/page.php">Curriculo</a></li>    
                 </ul>
               </li>
-              <li><a href="">Psicoterapia</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Participação na mídia</a></li>
-              <li><a href="">Contato</a></li>
+              <li><a href="/views/page.php">Psicoterapia</a></li>
+              <li><a href="/views/blog_list.php">Blog</a></li>
+              <li><a href="/views/participacao_midia.php">Participação na mídia</a></li>
+              <li><a href="/views/page.php">Contato</a></li>
             </ul>
           </div>
         </div>

@@ -33,26 +33,25 @@
         <li>
           <img src="../assets/img/home-treinamento-fundo.jpg">
           <div class="post-content">
-            <h1><a href="#">Os 5 maiores arrependimentos das pessoas em seus leitos de morte.</a></h1>
+            <h1><a href="/views/blog_detail.php">Os 5 maiores arrependimentos das pessoas em seus leitos de morte.</a></h1>
             <div class="post-info">
               <span class="date">21 Set 16</span>
             </div>
             <p>Os 5 maiores arrependimentos das pessoas em seus leitos de morte. Por muitos anos eu trabalhei em cuidados paliativos. Meus pacientes eram aqueles que tinham ido para casa para morrer. … </p>
-            <a href="#" class="read-more">Ler mais</a>
+            <a href="/views/blog_detail.php" class="read-more">Ler mais</a>
           </div>
         </li>
         <li>
           <img src="../assets/img/home-treinamento-fundo.jpg">
           <div class="post-content">
-            <h1><a href="#">Os 5 maiores arrependimentos das pessoas em seus leitos de morte.</a></h1>
+            <h1><a href="/views/blog_detail.php">Os 5 maiores arrependimentos das pessoas em seus leitos de morte.</a></h1>
             <div class="post-info">
               <span class="date">21 Set 16</span>
             </div>
             <p>Os 5 maiores arrependimentos das pessoas em seus leitos de morte. Por muitos anos eu trabalhei em cuidados paliativos. Meus pacientes eram aqueles que tinham ido para casa para morrer. … </p>
-            <a href="#" class="read-more">Ler mais</a>
+            <a href="/views/blog_detail.php" class="read-more">Ler mais</a>
           </div>
         </li>
-        
       </ul>
 
       <ul class="ul-sidebar">
