@@ -64,6 +64,18 @@ body {
 .hover:hover {
   opacity: 0.6; }
 
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .header {
   padding-bottom: 30px; }
   .header .header-links {
@@ -83,6 +95,8 @@ body {
   right: 0;
   top: 0;
   z-index: 9; }
+  .nav-menu .open-mobile-menu {
+    display: block; }
   .nav-menu ul {
     background: #B2CA4C;
     border-radius: 10px;
@@ -123,6 +137,7 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
+  min-width: 960px;
   background: #596c79;
   padding: 30px 0;
   border-top: solid 2px #CCCCCC; }
@@ -180,8 +195,7 @@ body {
       line-height: 22px; }
 
 .home .home-news {
-  padding: 30px 0;
-  overflow: auto; }
+  padding: 30px 0; }
   .home .home-news ul li {
     width: 45%;
     float: left;
@@ -202,8 +216,7 @@ body {
         font-size: 16px; }
 
 .home .home-partners {
-  padding: 30px 0;
-  overflow: auto; }
+  padding: 30px 0; }
   .home .home-partners ul li {
     display: inline-block; }
 
@@ -347,3 +360,117 @@ body {
     padding: 10px;
     box-sizing: border-box;
     background: #FFF; }
+
+@media (max-width: 600px) {
+  .general {
+    max-width: 600px;
+    min-width: 256px !important;
+    width: 100%; }
+  .section-content {
+    width: 100% !important;
+    max-width: 600px; }
+  .header-menu .nav-menu {
+    position: relative !important; }
+    .header-menu .nav-menu .open-mobile-menu {
+      display: block;
+      cursor: pointer;
+      width: 45px;
+      margin: 10px auto;
+      padding: 8px 5px;
+      box-sizing: border-box;
+      border-radius: 5px; }
+      .header-menu .nav-menu .open-mobile-menu span {
+        width: 35px;
+        height: 5px;
+        background: #B2CA4C;
+        display: block;
+        margin-bottom: 5px; }
+      .header-menu .nav-menu .open-mobile-menu span:last-child {
+        margin-bottom: 0; }
+    .header-menu .nav-menu ul {
+      display: none;
+      border-radius: 0; }
+      .header-menu .nav-menu ul li {
+        width: 100%;
+        padding: 15px 0; }
+        .header-menu .nav-menu ul li ul {
+          display: block;
+          position: relative;
+          box-shadow: none; }
+          .header-menu .nav-menu ul li ul li {
+            background: #B2CA4C; }
+  .home .home-banner {
+    margin-top: 0 !important; }
+  .home .home-seals ul li {
+    width: 100% !important;
+    margin-bottom: 20px; }
+  .home .home-news ul {
+    padding: 10px; }
+    .home .home-news ul li {
+      width: 100% !important;
+      padding-bottom: 20px;
+      margin: 0; }
+  .home .home-partners ul li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 !important; }
+  .institutional .institutional-title {
+    margin-top: 0px !important; }
+    .institutional .institutional-title ul li {
+      width: 100%; }
+  .institutional .sidebar-content .section-content .ul-content {
+    width: 100%; }
+  .institutional .sidebar-content .section-content .ul-sidebar {
+    width: 100%; }
+    .institutional .sidebar-content .section-content .ul-sidebar li {
+      padding: 10px 20px !important; }
+  .important-websites img {
+    max-width: 100%; }
+  .iframe-content iframe {
+    max-width: 100%; }
+  .footer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100% !important;
+    text-align: center; }
+    .footer .footer-contact {
+      width: 100%; }
+      .footer .footer-contact p {
+        padding: 10px; }
+    .footer .footer-about {
+      width: 100%; }
+      .footer .footer-about p {
+        padding: 10px; } }
+
+@media (max-width: 768px) {
+  .general {
+    min-width: 768px; }
+  .section-content {
+    width: 768px; }
+  .header-menu {
+    text-align: center; }
+    .header-menu .nav-menu {
+      position: absolute;
+      right: 0;
+      z-index: 9;
+      width: 100%;
+      margin-top: 30px;
+      top: initial; }
+      .header-menu .nav-menu ul li:first-child, .header-menu .nav-menu ul li:last-child {
+        border-radius: 0; }
+  .home .home-banner {
+    margin-top: 80px; }
+  .home .home-seals ul li {
+    width: 32%; }
+  .home .home-partners ul li {
+    padding: 10px; }
+  .footer {
+    min-width: 768px; }
+  .institutional .institutional-title {
+    margin-top: 80px; }
+    .institutional .institutional-title h1 {
+      padding: 0 20px; }
+  .institutional .institutional-content ul li {
+    padding: 30px 20px; }
+  .blog-content .blog-content li:first-child {
+    padding: 10px 20px !important; } }

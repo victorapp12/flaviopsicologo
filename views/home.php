@@ -35,9 +35,9 @@
   <div class="home-news">
     <div class="section-content">
       <h1 class="section-title">Serviços</h1>
-      <ul>
+      <ul class="clearfix">
         
-        <li>
+        <li class="clearfix">
           <div class="img">
             <img src="../assets/img/home_news1.jpg" alt="seal">
           </div>
@@ -47,7 +47,7 @@
           </div>
         </li>
         
-        <li>
+        <li  class="clearfix">
           <div class="img">
             <img src="../assets/img/home_news2.jpg" alt="seal">
           </div>

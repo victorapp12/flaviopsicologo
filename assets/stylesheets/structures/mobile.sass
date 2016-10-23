@@ -1,0 +1,377 @@
+@media (max-width: 600px) 
+  .general
+    max-width: 600px
+    min-width: 256px !important
+    width: 100%
+
+  .section-content
+    width: 100% !important
+    max-width: 600px
+
+  .header-menu
+    .nav-menu
+      position: relative !important
+      .open-mobile-menu
+        display: block
+        cursor: pointer
+        width: 45px
+        margin: 10px auto
+        padding: 8px 5px
+        box-sizing: border-box
+        border-radius: 5px
+        span 
+          width: 35px
+          height: 5px
+          background: $green-400
+          display: block
+          margin-bottom: 5px
+        
+        span:last-child 
+          margin-bottom: 0
+        
+      ul
+        display: none  
+        border-radius: 0
+        
+        li
+          width: 100%
+          padding: 15px 0
+
+          ul
+            display: block
+            position: relative
+            box-shadow: none
+            li
+              background: $green-400
+
+
+
+  .home 
+    .home-banner  
+      margin-top: 0 !important
+
+    .home-seals 
+      ul 
+        li
+          width: 100% !important
+          margin-bottom: 20px
+    
+    .home-news
+      ul
+        padding: 10px
+        li
+          width: 100% !important
+          padding-bottom: 20px
+          margin: 0
+
+    .home-partners
+      ul
+        li
+          width: 100%
+          text-align: center
+          padding: 10px 0 !important
+          
+
+  .institutional 
+    .institutional-title
+      margin-top: 0px !important
+      ul
+        li
+          width: 100%
+    
+    .sidebar-content
+      .section-content
+        .ul-content
+          width: 100%
+        .ul-sidebar
+          width: 100%
+          li
+            padding: 10px 20px !important
+
+
+  .important-websites 
+    img
+      max-width: 100%
+
+  .iframe-content
+    iframe
+      max-width: 100%
+
+
+  .footer
+    width: 100%
+    max-width: 100% 
+    min-width: 100% !important
+    text-align: center
+
+    .footer-contact
+      width: 100%
+
+      p
+        padding: 10px
+    
+    .footer-about
+      width: 100%
+
+      p
+        padding: 10px
+
+
+    
+
+@media (max-width: 768px)
+  .general
+    min-width: 768px
+
+  .section-content
+    width: 768px
+
+  .header-menu
+    text-align: center
+    .nav-menu 
+      position: absolute
+      right: 0
+      z-index: 9
+      width: 100%
+      margin-top: 30px
+      top: initial
+
+      ul 
+        li:first-child, li:last-child
+          border-radius: 0
+
+  //Home
+  .home
+    .home-banner
+      margin-top: 80px
+      
+    .home-seals 
+      ul 
+        li
+          width: 32%
+    
+    .home-partners 
+      ul 
+        li
+          padding: 10px
+      
+
+  .footer
+    min-width: 768px
+  
+  //Institutional
+  .institutional 
+    .institutional-title
+      margin-top: 80px
+      h1 
+        padding: 0 20px
+
+    .institutional-content 
+      ul 
+        li 
+          padding: 30px 20px
+  
+  //Blog
+  .blog-content 
+    .blog-content 
+      li:first-child 
+        padding: 10px 20px !important
+
+  
+
+
+
+
+
+// .abrirMenuMobile {
+//     display: none;
+//     cursor: pointer;
+//     width: 45px;
+//     margin: 10px auto;
+//     padding: 8px 5px;
+//     box-sizing: border-box;
+//     border-radius: 5px;
+//     span {
+//         width: 35px;
+//         height: 5px;
+//         background: #b8282d;
+//         display: block;
+//         margin-bottom: 5px;
+//     }
+//     span:last-child {
+//         margin-bottom: 0;
+//     }
+// }
+// @media (max-width: 920px) {
+//     #tudo {
+//         min-width: 300px;
+//     }
+//     header {
+//         ul.itens-menu {
+//             padding: 0;
+//             margin-right: 110px;
+//             li.item-menu {
+//                 width: 100px;
+//             }
+//         }
+//     }
+//     .container-940,
+//     .container-780 {
+//         width: 100%;
+//         padding: 0 30px;
+//         box-sizing: border-box;
+//     }
+//     .area-site-interna .servicos .btns-servicos a {
+//         display: inline-block;
+//         margin-bottom: 20px;
+//         width: 100%;
+//         box-sizing: border-box;
+//         max-width: 350px;
+//         margin-right: 0px;
+//     }
+//     .area-treinamentos {
+//         .area-txt {
+//             margin-bottom: 6%;
+//         }
+//     }
+// }
+// @media (max-width: 840px) {
+//     .formContato {
+//         width: 100%;
+//         max-width: 380px;
+//         margin: 0 auto;
+//         .form-col-5 {
+//             margin-right: 0;
+//             width: 100% !important;
+//         }
+//     }
+// }
+// @media (max-width: 580px) {
+//     footer {
+//         .area-contato {
+//             ul {
+//                 padding: 0;
+//                 width: 100%;
+//                 li {
+//                     min-width: 260px;
+//                     display: inline-block;
+//                     float: none;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media (max-width: 823px) {
+//     #conteudo {
+//         padding-top: 200px !important;
+//     }
+//     .logoMobileMenu {
+//         display: none !important;
+//     }
+//     .area-banner-home {
+//         padding-bottom: 100px;
+//         img.bannner {
+//             display: none;
+//         }
+//         .logoMobile {
+//             display: block !important;
+//             margin: 0 auto;
+//         }
+//     }
+//     header {
+//         height: auto;
+//         .container-940-menu {
+//             width: 100%;
+//             text-align: center;
+//         }
+//         .logo {
+//             float: none;
+//         }
+//         .abrirMenuMobile {
+//             display: block;
+//         }
+//         ul.itens-menu {
+//             margin-top: 20px;
+//             display: none;
+//             padding: 0;
+//             margin: 0;
+//             width: 100%;
+//             height: auto;
+//             li.item-menu {
+//                 width: 100%;
+//                 float: none;
+//                 padding: 20px 0;
+//                 ul.submenu {
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//     }
+//     #conteudo {
+//         padding-top: 200px;
+//     }
+//     #conteudoHome {
+//         margin-top: -60px;
+//     }
+//     .area-assine-news {
+//         text-align: center;
+//         img {
+//             float: none;
+//         }
+//         form {
+//             float: none;
+//             .campos {
+//                 width: 100%;
+//                 margin-left: 0;
+//                 margin: 10px;
+//                 max-width: 300px;
+//             }
+//             .campos:first-child {
+//                 margin-left: 0;
+//             }
+//             .enviar-news {
+//                 display: block;
+//                 margin: 10px auto;
+//             }
+//         }
+//     }
+//     .area-treinamentos{
+//         background: #404040;
+//         padding: 60px 0;
+//         .imgTreinamentos{
+//             display: none;
+//         }
+//         .area-txt{
+//             width: auto;
+//             position: relative;
+//             margin-bottom: 0;
+//             h2{
+//                 text-align: center;
+//             }
+//             a{
+//                 .btn{
+//                     width: 100%;
+//                     margin-bottom: 20px;
+//                 }
+//             }
+//             article{
+//                 width: auto;
+//                 p{
+//                     color: #fff;
+//                 }
+//                 a{
+//                     color: #fff;
+//                     float: left;
+//                 }
+//             }
+//         }
+//     }
+//     .lista-posts {
+//         padding: 0;
+//         margin: 0;
+//         li {
+//             left: 0 !important;
+//             width: 100%;
+//         }
+//     }
+// }

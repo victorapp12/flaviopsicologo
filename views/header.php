@@ -17,7 +17,7 @@
   <div class="general">
     <!-- General start -->
 
-    <div class="header">
+    <div class="header clearfix">
       <!-- Header start -->
       
       <div class="section-content">
@@ -37,7 +37,12 @@
             <img src="../assets/img/logo.png" alt="Flávio Psicologo">
           </a>
           <div class="nav-menu">
-            <ul>
+            <div class="open-mobile-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="ul-menu">
               <li><a href="/views/page.php">Quem sou</a></li>
               <li>
                 <a href="#">O profissional</a>
